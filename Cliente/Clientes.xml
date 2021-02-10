@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE clientes SYSTEM "clientes.dtd">
+<clientes>
+    <sede codigo = "C1234567">
+        <empleado> Juan </empleado>
+        <fech_alta> 20/01/21 </fech_alta>
+        <desc_cliente> sovente </desc_cliente>
+            <cliente codigo = "ABD-123">
+                <num_viviendas> 4 </num_viviendas>
+                <coste_vivienda> 50000 </coste_vivienda>
+                <resumen_vivienda> buena calidad </resumen_vivienda>
+                <plazo_alta> 20/14/14 </plazo_alta>
+            </cliente>
+    </sede>  
+</clientes>
+
+
+

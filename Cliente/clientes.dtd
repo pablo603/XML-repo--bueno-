@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT clientes (sede)*>
+<!ELEMENT sede (empleado|fech_alta|desc_cliente|cliente)*>
+<!ATTLIST sede codigo CDATA #REQUIRED>
+<!ELEMENT empleado (#PCDATA)>
+<!ELEMENT fech_alta (#PCDATA)>
+<!ELEMENT desc_cliente (#PCDATA)>
+<!ELEMENT cliente (num_viviendas|coste_vivienda|resumen_vivienda|plazo_alta)*>
+<!ATTLIST cliente codigo CDATA #REQUIRED>
+<!ELEMENT num_viviendas (#PCDATA)>
+<!ELEMENT coste_vivienda (#PCDATA)>
+<!ELEMENT resumen_vivienda (#PCDATA)>
+<!ELEMENT plazo_alta (#PCDATA)>
